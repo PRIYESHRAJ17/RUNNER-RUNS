@@ -163,7 +163,7 @@ function draw() {
     }
     player.depth = ground.depth+1
     
-    if((touches.length>0||keyDown("space"))&& player.y >= 470) {
+    if((touches.length>0||keyDown("space"))&& player.y >= 1200) {
         player.velocityY = -15;
         jumpSound.play();
     }
